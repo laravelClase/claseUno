@@ -29,7 +29,7 @@
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Settings</a></li>
             <li>
-              <a class="navbar-collapse collapse">
+              <div class="navbar-collapse collapse">
                 <div>
                   @if (Auth::check())
                   <ul class="nav navbar-nav pull-right">
@@ -46,7 +46,7 @@
                   </ul>
                   @endif
                 </div>
-              <a>
+              <div>
             </li>
 
           </ul>
@@ -61,11 +61,11 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Social Networking</a></li>
-            <li><a href="#">favorites</a></li>
-            <li><a href="#">Recommended</a></li>
+            <li class="active lis"><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
+            <li class="lis"><a href="#">Blog</a></li>
+            <li class="lis"><a href="#">Social Networking</a></li>
+            <li class="lis"><a href="#">favorites</a></li>
+            <li class="lis"><a href="#">Recommended</a></li>
           </ul>
 
         </div>
